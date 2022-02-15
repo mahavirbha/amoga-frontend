@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amoga-frontend/static/css/main.6b98d37d.css",
+    "main.js": "/amoga-frontend/static/js/main.06011840.js",
+    "static/js/787.5e3da48b.chunk.js": "/amoga-frontend/static/js/787.5e3da48b.chunk.js",
+    "index.html": "/amoga-frontend/index.html",
+    "main.6b98d37d.css.map": "/amoga-frontend/static/css/main.6b98d37d.css.map",
+    "main.06011840.js.map": "/amoga-frontend/static/js/main.06011840.js.map",
+    "787.5e3da48b.chunk.js.map": "/amoga-frontend/static/js/787.5e3da48b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b98d37d.css",
+    "static/js/main.06011840.js"
+  ]
+}
