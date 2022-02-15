@@ -12,29 +12,13 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { grey, red,blue } from '@mui/material/colors';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-
-import TodayOutlinedIcon from '@mui/icons-material/TodayOutlined';
-import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
-import VideocamOutlinedIcon from '@mui/icons-material/VideocamOutlined';
-import { makeStyles } from '@mui/material';
 import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
 import RecommendIcon from '@mui/icons-material/Recommend';
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import ModeCommentOutlinedIcon from '@mui/icons-material/ModeCommentOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
-import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 
@@ -130,7 +114,7 @@ export default function Birthday() {
         </Typography>
         
       </CardActions>
-      <Typography sx={{margin:"5px 10px"}} variant='caption'> Load more comments</Typography>
+      <Typography sx={{margin:"5px"}} variant='caption'> Load more comments</Typography>
         
     </Card>
   )
