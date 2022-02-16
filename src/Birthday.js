@@ -41,8 +41,9 @@ export default function Birthday() {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"}}>
 
-            <Container sx={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+            <Container sx={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
                 <Avatar sx={{ boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",height:"130px",width:"130px",bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"/>
+                <Typography sx={{marginTop:"20px",fontWeight:600}} variant='body2'>John Doe</Typography>
             </Container>
         </Container>
 
