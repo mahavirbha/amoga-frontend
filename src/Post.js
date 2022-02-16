@@ -84,10 +84,10 @@ export default function Post() {
       </CardContent>
       </CardActionArea>
       <CardActions disableSpacing sx={{display:"flex",justifyContent:"space-between"}}>
-        <Typography variant="caption" sx={{flex:4,marginLeft:"8px",color: grey[600]}} gutterBottom>
+        <Typography variant="caption" sx={{marginLeft:"8px",color: grey[600]}} gutterBottom>
             15 Going . 30 Interested
         </Typography>
-        <Typography sx={{flex:1,color: grey[600]}} variant="caption" gutterBottom>
+        <Typography sx={{color: grey[600]}} variant="caption" gutterBottom>
             24 Comments
         </Typography>
       </CardActions>
