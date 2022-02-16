@@ -1,13 +1,10 @@
 
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import { CardActionArea } from '@mui/material';
-import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
@@ -27,9 +24,7 @@ export default function Birthday() {
     <Card variant="outlined" sx={{width:"80vw",maxWidth:"700px", borderRadius:"10px",marginTop:"20px",marginBottom:"20px"}}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg">
-            
-          </Avatar>
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"/>
         }
         action={
           <IconButton aria-label="settings">
@@ -58,9 +53,6 @@ export default function Birthday() {
       </CardContent>
       </CardActionArea>
       <CardActions disableSpacing sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-        {/* <Typography variant="caption" sx={{flex:4,marginLeft:"8px",color: grey[600]}} gutterBottom>
-            15 Going . 30 Interested
-        </Typography> */}
         <Typography sx={{display:"flex",alignItems:"center"}} variant="caption">
             <RecommendIcon sx={{marginLeft:"8px",color: blue[600]}} />
             Ashruti Singh and 5 others
@@ -74,36 +66,36 @@ export default function Birthday() {
       <Divider light />
 
       <Stack sx={{height:"50px",alignItems:"center",paddingLeft:"10px"}} direction="row" spacing={1}>
-            <ThumbUpOutlinedIcon sx={{marginRight:"10px"}}/> 
-            <Typography variant='body2'>Like</Typography>
-            
-            <ModeCommentOutlinedIcon sx={{marginRight:"20px"}}/>
-            <Typography variant='body2'>Comment</Typography>
-            
-            <ShareOutlinedIcon sx={{marginRight:"10px"}} />
-            <Typography variant='body2'>Share</Typography>
-        </Stack>
+          <ThumbUpOutlinedIcon sx={{marginRight:"10px"}}/> 
+          <Typography variant='body2'>Like</Typography>
+          
+          <ModeCommentOutlinedIcon sx={{marginRight:"20px"}}/>
+          <Typography variant='body2'>Comment</Typography>
+          
+          <ShareOutlinedIcon sx={{marginRight:"10px"}} />
+          <Typography variant='body2'>Share</Typography>
+      </Stack>
 
-        <Divider light />
+      <Divider light />
 
-        <Stack sx={{display:"flex",alignItems:"center", justifyContent:"center"}} direction="row" spacing={2}>
-            <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"></Avatar>
-             <TextField sx={{width:"65vw"}} label="Add Comment" id="fullWidth" />
-        </Stack>
+      <Stack sx={{display:"flex",alignItems:"center", justifyContent:"center"}} direction="row" spacing={2}>
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"></Avatar>
+            <TextField sx={{width:"65vw"}} label="Add Comment" id="fullWidth" />
+      </Stack>
 
-        <CardHeader
-        avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg">
-            
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title="Rob Doe"
-        subheader="Lorem ipsum dolor sit amet, consecterfgiop elit. Fuses et ee;iopskld Fuies posuren sapiens afcut."
+      <CardHeader
+      avatar={
+        <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg">
+          
+        </Avatar>
+      }
+      action={
+        <IconButton aria-label="settings">
+          <MoreVertIcon />
+        </IconButton>
+      }
+      title="Rob Doe"
+      subheader="Lorem ipsum dolor sit amet, consecterfgiop elit. Fuses et ee;iopskld Fuies posuren sapiens afcut."
       />
       <CardActions disableSpacing sx={{display:"flex",justifyContent:"flex-start", alignItems:"center"}}>
         <Typography variant="caption" sx={{marginLeft:"60px",marginRight:"5px",color: grey[600]}} gutterBottom>

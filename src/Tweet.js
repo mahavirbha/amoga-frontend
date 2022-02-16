@@ -2,7 +2,7 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import { CardActionArea } from '@mui/material';
-import { grey, red,blue} from '@mui/material/colors';
+import { grey} from '@mui/material/colors';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import Button from '@mui/material/Button';
 import VideocamOutlinedIcon from '@mui/icons-material/VideocamOutlined';
